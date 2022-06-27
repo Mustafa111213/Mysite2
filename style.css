@@ -50,10 +50,10 @@ nav{
 }
 
 .topnav a:hover{
-	border-bottom: 2px solid black;
 	background-color: black;
 	color: white;
-	border-radius: 5px;
+	border-radius: 15px;
+
 }
 
 .logo img{
@@ -107,9 +107,10 @@ div a{
 }
 
 .infop{
+	float: right;
 	font-size: 20px;
-	padding-top: 0px;
-	margin:50px 0px 0px 0px;
+	background-attachment: fixed;
+
 }
 
 .gg{
@@ -117,8 +118,7 @@ div a{
 	text-align: center;
 	font-size: 40px;
 }
-.infop p{
-margin-left:10px ;
+
 }
 
 .premimg{
@@ -128,12 +128,17 @@ margin-left:10px ;
 
 .ggtop{
 
-margin-left: 400px;
+margin-right: 500px;
+margin-top: 300px;
 
 }
-
-.posled{
-	width: 100px;
-	height: 50px;	
+.infop1{
+	float: left;
+	max-width: 700px;
+	font-size: 30px;
+	padding-top: 15px;
+	background-attachment: fixed;
 }
+
+
 
